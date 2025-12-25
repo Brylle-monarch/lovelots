@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffdae0;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 80px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+img {
+    width: 200px;
+    
+}
+
+h1 {
+    color: #e91e63;
+    margin-bottom: 20px;
+}
+
+.btn-group {
+    position:relative;
+    height: 50px;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#yesBtn {
+    background-color: #e91e63;
+    color: white;
+}
+
+#noBtn {
+    background-color: #757575;
+    color: white;
+    position: relative;
+}
